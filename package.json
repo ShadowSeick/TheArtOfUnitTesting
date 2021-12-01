@@ -1,0 +1,20 @@
+{
+  "name": "ch2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "unit": "jest -c jest.config.unit.js",
+    "integration": "jest -c jest.config.integration.js"
+  },
+  "scriptsComment": "if not using git change to --watchAll",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
