@@ -1,4 +1,4 @@
-const {fetch} = require('node-fetch');
+const fetch = require('node:http');
 
 const isWebsiteAlive = (callback) => {
     const website = 'http://example.com';
