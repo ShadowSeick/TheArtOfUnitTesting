@@ -15,7 +15,7 @@ describe('working with long interfaces', () => {
             const verifier = new PasswordVerifier2([], mockLog);
             verifier.verify('anything');
 
-            expect(mockLog.info).toHaveBeenCalledWith(stringMatching(/PASS/));
+            expect(mockLog.info).toHaveBeenCalledWith(stringMatching(/PASS/), 'method');
         });
     });
 });
